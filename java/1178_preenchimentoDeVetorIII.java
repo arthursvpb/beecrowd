@@ -8,7 +8,7 @@ public class Main {
 
 		double n = input.nextDouble();
 		double[] nArr = new double[100];
-
+		
 		for (int i = 0; i < 100; i++) {
 			nArr[i] = n;
 			n /= 2;
