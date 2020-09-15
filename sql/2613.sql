@@ -1,0 +1,1 @@
+SELECT m.id, m.name FROM Movies m INNER JOIN Prices p ON m.id_prices = p.id AND p.value < 2;

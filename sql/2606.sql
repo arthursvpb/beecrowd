@@ -1,0 +1,1 @@
+SELECT p.id, p.name FROM Products p INNER JOIN Categories c ON p.id_categories = c.id WHERE c.name LIKE 'super%';

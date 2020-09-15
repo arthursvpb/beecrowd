@@ -1,0 +1,1 @@
+SELECT ROUND(avg(price), 2) AS price FROM Products;
